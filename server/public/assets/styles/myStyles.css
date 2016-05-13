@@ -1,0 +1,13 @@
+body{
+  padding-top: 50px;
+  font: sans-serif;
+  background-image: url('/assets/images/Minneapolis.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.jumbotron{
+  background: rgba(255,255,255,.7);
+  text-align: center;
+}

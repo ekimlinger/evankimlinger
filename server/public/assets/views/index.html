@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Evan Kimlinger</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/myStyles.css" />
+    <!-- ANGULAR -->
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <!-- MY SCRIPTS -->
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+  </head>
+  <body>
+    <ng-include src="'/assets/views/partials/nav.html'"></ng-include>
+
+
+
+    <main ng-view ng-cloak ></main>
+
+    <ng-include src="'/assets/views/partials/footer.html'"></ng-include>
+  </body>
+</html>
