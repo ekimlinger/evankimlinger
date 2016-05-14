@@ -1,13 +1,52 @@
 body{
   padding-top: 50px;
   font: sans-serif;
+}
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
   background-image: url('/assets/images/Minneapolis.jpg');
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
   background-size: cover;
+  height: 100%;
+
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.content {
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.container{
+  background: rgba(255,255,255,.7);
+
 }
 .jumbotron{
-  background: rgba(255,255,255,.7);
+  background: rgba(255,255,255,.0);
   text-align: center;
+  color: white;
+  text-shadow: black 2px 2px;
+}
+#evan{
+  height: 220px;
+  border: #555 11px solid;
+}
+#logo{
+  height: 220px;
+  width: 220px;
+  -webkit-filter: brightness(0);
+  filter: brightness(0);
+}
+nav img{
+  height: 40px;
+  margin: -10px;
 }

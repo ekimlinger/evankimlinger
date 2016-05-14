@@ -14,12 +14,14 @@
     <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
   </head>
   <body>
-    <ng-include src="'/assets/views/partials/nav.html'"></ng-include>
 
+    <div class="background-image"> </div>
+    <div class="content">
 
+      <main ng-view ng-cloak ></main>
 
-    <main ng-view ng-cloak ></main>
+      <ng-include src="'/assets/views/partials/footer.html'"></ng-include>
+    </div>
 
-    <ng-include src="'/assets/views/partials/footer.html'"></ng-include>
   </body>
 </html>
