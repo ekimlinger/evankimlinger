@@ -38,6 +38,9 @@ footer p{
   background: rgba(255,255,255,.7);
 
 }
+.home.container{
+  text-align: center;
+}
 .jumbotron{
   background: rgba(255,255,255,.0);
   text-align: center;
